@@ -1,0 +1,13 @@
+name = "GICEL"
+grammar = "gicel"
+path_suffixes = ["gicel"]
+line_comments = ["-- "]
+block_comment = ["{-", "-}"]
+autoclose_before = ";:.,=}])> \n\t"
+brackets = [
+  { start = "{", end = "}", close = true, newline = true },
+  { start = "[", end = "]", close = true, newline = true },
+  { start = "(", end = ")", close = true, newline = true },
+  { start = "\"", end = "\"", close = true, newline = false, not_in = ["string", "comment"] },
+]
+word_characters = ["'"]
