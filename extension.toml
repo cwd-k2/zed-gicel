@@ -8,4 +8,4 @@ schema_version = 1
 
 [grammars.gicel]
 repository = "https://github.com/cwd-k2/tree-sitter-gicel"
-commit = "1792e9c0b590500ebc24178934fdfaa590821811"
+commit = "e20d60a280ab9d9e1862a5ea12b2743736593b4b"
